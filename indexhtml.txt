@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anjan Computer World</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header>
+  <nav class="navbar">
+    <h2 class="logo">Anjan Computer World</h2>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#admission">Admission</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ===== HOME ===== -->
+<section id="home" class="banner">
+  <h1>Welcome to Anjan Computer World</h1>
+  <p>Your Future Starts with Digital Skills</p>
+  <a href="#courses" class="btn">Explore Courses</a>
+</section>
+
+<section class="intro">
+  <h2>About Our Institute</h2>
+  <p>We provide quality computer education with practical training to build your career.</p>
+</section>
+
+<section class="highlights">
+  <div class="card">? Certified Courses</div>
+  <div class="card">? Experienced Trainers</div>
+  <div class="card">? Practical Learning</div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <p>Anjan Computer World is a leading training centre offering professional computer education.</p>
+  <h3>Mission</h3>
+  <p>To empower students with digital knowledge.</p>
+  <h3>Vision</h3>
+  <p>To create skilled professionals for the modern world.</p>
+</section>
+
+<!-- ===== COURSES ===== -->
+<section id="courses" class="section">
+  <h2>Our Courses</h2>
+  <div class="course-container">
+    <div class="course-card">Basic Computer</div>
+    <div class="course-card">MS Office</div>
+    <div class="course-card">Tally</div>
+    <div class="course-card">DTP</div>
+    <div class="course-card">Programming</div>
+  </div>
+</section>
+
+<!-- ===== ADMISSION ===== -->
+<section id="admission" class="section">
+  <h2>Admission Form</h2>
+  <form id="admissionForm">
+    <input type="text" placeholder="Full Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <select required>
+      <option value="">Select Course</option>
+      <option>Basic Computer</option>
+      <option>MS Office</option>
+      <option>Tally</option>
+      <option>DTP</option>
+      <option>Programming</option>
+    </select>
+    <textarea placeholder="Address" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section id="gallery" class="section">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/300" alt="">
+    <img src="https://via.placeholder.com/300" alt="">
+    <img src="https://via.placeholder.com/300" alt="">
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>?? Address: Your Centre Address Here</p>
+  <p>?? Phone: +91 9876543210</p>
+  <p>?? Email: info@anjancomputerworld.com</p>
+
+  <iframe src="https://maps.google.com/maps?q=kolkata&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</section>
+
+<!-- ===== WHATSAPP BUTTON ===== -->
+<a href="https://wa.me/919876543210" class="whatsapp" target="_blank">??</a>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>© 2026 Anjan Computer World</p>
+  <div class="social">
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">YouTube</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

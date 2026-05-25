@@ -1,0 +1,46 @@
+Create a modern, responsive website for a computer training centre named "Anjan Computer World".
+
+Requirements:
+- Clean, professional design
+- Mobile-friendly (responsive)
+- Use HTML, CSS, and basic JavaScript
+
+Pages to include:
+1. Home Page
+   - Banner with title and tagline
+   - Short introduction
+   - Highlights (courses, facilities)
+
+2. About Us
+   - Centre details
+   - Mission and vision
+
+3. Courses Page
+   - List of courses (Basic Computer, MS Office, Tally, DTP, Programming)
+   - Duration and fees (optional)
+
+4. Admission Page
+   - Admission form (Name, Phone, Course, Address)
+
+5. Gallery
+   - Classroom images (placeholder)
+
+6. Contact Page
+   - Address
+   - Phone number
+   - Email
+   - Google Map (embed)
+
+Design Style:
+- Blue + white color theme
+- Modern UI with cards and buttons
+- Simple navigation menu
+
+Extra Features:
+- WhatsApp contact button
+- Smooth scrolling
+- Footer with social links
+
+Output:
+- Provide complete HTML, CSS, and JavaScript code
+- Keep code clean and well-commented
