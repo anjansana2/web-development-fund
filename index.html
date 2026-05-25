@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREAT FASHION</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- NAVBAR -->
+<header>
+  <div class="logo">Great Fashion</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="icons">
+    ₹ <span id="cart-count">0</span>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>LEVEL UP YOUR STYLE</h1>
+  <button>Shop Now</button>
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories">
+  <h2>Categories</h2>
+  <div class="grid">
+    <div>T-Shirts</div>
+    <div>Hoodies</div>
+    <div>Oversized</div>
+    <div>Couple Wear</div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+  <h2>Best Sellers</h2>
+  <div class="grid">
+
+    <div class="card">
+      <img src="pictures/T-Shirts.jpeg">
+      <h3>Street Tee</h3>
+      <p>₹999</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="pictures/Hoodies.jpeg">
+      <h3>Oversized Hoodie</h3>
+      <p>₹1999</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+     <div class="card">
+      <img src="pictures/Couple Wear.png">
+      <h3>Couple Wear</h3>
+      <p>₹1999</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- OFFER -->
+<section class="offer">
+  <h2>20% OFF ON FIRST ORDER</h2>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews">
+  <h2>Customer Reviews</h2>
+  <p>"Amazing quality and fast delivery!"</p>
+  <i class="fa-solid fa-truck"></i>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+  <h2>Subscribe</h2>
+  <input type="email" placeholder="Enter your email">
+  <button>Subscribe</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Great Fashion</p>
+</footer>
+
+<!-- WHATSAPP -->
+<a href="#" class="whatsapp">@</a>
+<i class="fa-brands fa-whatsapp"></i>
+<script src="script.js"></script>
+ 
+</body>
+</html>
